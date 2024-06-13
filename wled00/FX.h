@@ -142,12 +142,12 @@
 #define FX_MODE_SAW                     16
 #define FX_MODE_TWINKLE                 17
 #define FX_MODE_DISSOLVE                18
-#define FX_MODE_DISSOLVE_RANDOM         19  // candidate for removal (use Dissolve with with check 3)
+//#define FX_MODE_DISSOLVE_RANDOM         19  // candidate for removal (use Dissolve with with check 3)
 #define FX_MODE_SPARKLE                 20
 #define FX_MODE_FLASH_SPARKLE           21
 #define FX_MODE_HYPER_SPARKLE           22
-#define FX_MODE_STROBE                  23
-#define FX_MODE_STROBE_RAINBOW          24
+//#define FX_MODE_STROBE                  23
+//#define FX_MODE_STROBE_RAINBOW          24
 #define FX_MODE_MULTI_STROBE            25
 #define FX_MODE_BLINK_RAINBOW           26
 #define FX_MODE_ANDROID                 27
@@ -226,7 +226,7 @@
 #define FX_MODE_HEARTBEAT              100
 #define FX_MODE_PACIFICA               101
 #define FX_MODE_CANDLE_MULTI           102
-#define FX_MODE_SOLID_GLITTER          103  // candidate for removal (use glitter)
+//#define FX_MODE_SOLID_GLITTER          103  // candidate for removal (use glitter)
 #define FX_MODE_SUNRISE                104
 #define FX_MODE_PHASED                 105
 #define FX_MODE_TWINKLEUP              106
@@ -296,9 +296,9 @@
 #define FX_MODE_2DSUNRADIATION         166
 #define FX_MODE_2DCOLOREDBURSTS        167
 #define FX_MODE_2DJULIA                168
-// #define FX_MODE_2DPOOLNOISE            169 //have been removed in WLED SR in the past because of low mem but should be added back
-// #define FX_MODE_2DTWISTER              170 //have been removed in WLED SR in the past because of low mem but should be added back
-// #define FX_MODE_2DCAELEMENTATY         171 //have been removed in WLED SR in the past because of low mem but should be added back
+#define FX_MODE_2DPOOLNOISE            169 //have been removed in WLED SR in the past because of low mem but should be added back
+#define FX_MODE_2DTWISTER              170 //have been removed in WLED SR in the past because of low mem but should be added back
+#define FX_MODE_2DCAELEMENTATY         171 //have been removed in WLED SR in the past because of low mem but should be added back
 #define FX_MODE_2DGAMEOFLIFE           172
 #define FX_MODE_2DTARTAN               173
 #define FX_MODE_2DPOLARLIGHTS          174
